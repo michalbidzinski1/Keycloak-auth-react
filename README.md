@@ -1,2 +1,2 @@
 # Keycloak-auth-react
-Secruring React app using Keycloak server.
+Secruring React app using Keycloak server and Mongoose backend.
