@@ -1,0 +1,35 @@
+ul.navbar {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.navbar {
+  display: list-item;
+  padding: 5px 10px;
+
+  margin: 0 3px;
+}
+
+li.navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li.navbar a:hover {
+  background-color: #111;
+}
+button.navbar {
+  display: block;
+  padding: 8px;
+  margin-top: 6px;
+  background-color: #dddddd;
+}

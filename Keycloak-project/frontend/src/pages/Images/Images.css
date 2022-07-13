@@ -1,0 +1,39 @@
+.center {
+  margin: auto;
+  width: 15%;
+}
+.centerHome {
+  text-align: center;
+}
+.post {
+  width: 100%;
+  height: 50%;
+  margin: 10px;
+
+  border: 1px solid lightgray;
+}
+.postImg {
+  width: 100%;
+  height: 50%;
+  margin: auto;
+}
+.author {
+  padding: 10px;
+}
+.postDesc {
+  word-wrap: break-word;
+  font-family: "Varela Round", sans-serif;
+  font-size: 14px;
+  color: #444;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.postInfo {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
